@@ -12,8 +12,6 @@ import canh2 from './static/images/cards/canh2.jpg';
 import com from './static/images/cards/com.jpg';
 import { Grid } from '@material-ui/core';
 import {Link} from 'react-scroll'
-import tom from './static/images/cards/tom.jpg';
-
 
 const useStyles = makeStyles((theme) => ({
   navbar: {
@@ -125,10 +123,6 @@ function App() {
             
           </Grid>
         </Grid>
-      </Grid>
-      <Grid style={{justifyContent: 'center', textAlign: 'center'}}>
-        <div>My Fen Tom Bồi bàn here  !!!</div>
-        <img src={tom} alt='tom'></img>
       </Grid>
 
       {/* Footer */}
