@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Navbar,Nav,NavDropdown,Form,FormControl,Button, Card, Collapse } from 'react-bootstrap';
+import { Navbar, Nav, Card } from 'react-bootstrap';
 import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { makeStyles } from '@material-ui/core/styles';
 import DineIn1 from './static/images/cards/DineIn1.png';
@@ -83,7 +81,7 @@ function App() {
                 // subheader="September 14, 2016"
               />
               <div style={{width: '100%'}}>
-              <img className={classes.media} src={Pho}></img>
+              <img alt='Pho' className={classes.media} src={Pho}></img>
               </div>
               {/* <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
@@ -100,18 +98,18 @@ function App() {
               // subheader="September 14, 2016"
             />
             <div style={{width: '100%'}}>
-            <img className={classes.media} src={com}></img>
+            <img alt='com' className={classes.media} src={com}></img>
             </div>
             </Card>
           </Grid>
           <Grid item sm={6} md={4}>
             <Card className={classes.card}>
             <CardHeader
-              title="Pho"
+              title="Canh1"
               // subheader="September 14, 2016"
             />
             <div style={{width: '100%'}}>
-            <img className={classes.media} src={canh1}></img>
+            <img alt='canh1' className={classes.media} src={canh1}></img>
             </div>
             </Card>
           </Grid>
@@ -120,11 +118,11 @@ function App() {
           <Grid item sm={6} md={4}>
             <Card className={classes.card}>
             <CardHeader
-              title="Pho"
+              title="Com dac biet suon"
               // subheader="September 14, 2016"
             />
             <div style={{width: '100%'}}>
-            <img className={classes.media} src={canh2}></img>
+            <img alt='canh2' className={classes.media} src={canh2}></img>
             </div>
             </Card>
             
@@ -140,7 +138,7 @@ function App() {
         <div>
         <span style={{fontWeight: 'bold'}}>Hours:</span> Monday - Saturday: 11AM - 9PM, Sunday: Closed
         </div>
-      &copy; {new Date().getFullYear()} Copyright: <a href=""> LePho Sanford </a>
+      &copy; {new Date().getFullYear()} Copyright: <a href="/"> LePho Sanford </a>
       </footer>
     </div>
   );
