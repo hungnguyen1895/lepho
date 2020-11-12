@@ -12,7 +12,7 @@ import canh2 from './static/images/cards/canh2.jpg';
 import com from './static/images/cards/com.jpg';
 import { Grid } from '@material-ui/core';
 import {Link} from 'react-scroll'
-
+import tom from './static/images/cards/tom.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -28,7 +28,6 @@ const useStyles = makeStyles((theme) => ({
     width: '250px',
     textAlign: 'center',
     borderRadius: '20px',
-    // width: 300,
     height: 200,
   },
   footer: {
@@ -56,7 +55,6 @@ function App() {
       {/* NAV BAR */}
       <Navbar className={classes.navbar} bg="dark" variant="dark" expand="lg" sticky="top">
         <Navbar.Brand><Link  to='main' spy={true} smooth={true}>LE's Pho</Link></Navbar.Brand>
-        {/* <Link  to="main" spy={true} smooth={true}>LePho</Link> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
@@ -64,7 +62,6 @@ function App() {
             </Nav>
         </Navbar.Collapse>
       </Navbar>
-
 
       {/* Main Contain */}
       <Grid id='main' container justify='center' alignItems='center'>
@@ -128,6 +125,10 @@ function App() {
             
           </Grid>
         </Grid>
+      </Grid>
+      <Grid style={{justifyContent: 'center', textAlign: 'center'}}>
+        <div>My Fen Tom Bồi bàn here  !!!</div>
+        <img src={tom} alt='tom'></img>
       </Grid>
 
       {/* Footer */}
