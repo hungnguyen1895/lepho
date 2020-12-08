@@ -72,7 +72,7 @@ function App() {
           <Grid item sm={6} md={4}>
             <Card className={classes.card}>
               <CardHeader
-                title="Pho"
+                // title="Pho"
                 // subheader="September 14, 2016"
               />
               <div style={{width: '100%'}}>
@@ -89,7 +89,7 @@ function App() {
           <Grid item sm={6} md={4}>
             <Card className={classes.card}>
             <CardHeader
-              title="Com"
+              // title="Com"
               // subheader="September 14, 2016"
             />
             <div style={{width: '100%'}}>
@@ -100,7 +100,7 @@ function App() {
           <Grid item sm={6} md={4}>
             <Card className={classes.card}>
             <CardHeader
-              title="Canh1"
+              // title="Canh1"
               // subheader="September 14, 2016"
             />
             <div style={{width: '100%'}}>
@@ -113,7 +113,7 @@ function App() {
           <Grid item sm={6} md={4}>
             <Card className={classes.card}>
             <CardHeader
-              title="Com dac biet suon"
+              // title="Com dac biet suon"
               // subheader="September 14, 2016"
             />
             <div style={{width: '100%'}}>
